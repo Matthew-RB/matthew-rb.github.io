@@ -236,3 +236,59 @@ nav {
     }
 }
 
+
+/* This is for the rivers.html */
+
+.idaho {
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 650px;
+    left: 20px;
+}
+
+.idaho-text {
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 750px;
+    left: 20px;
+}
+
+.river-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.utah-image {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+.utah {
+    grid-column: 1/2;
+    font-size: 1.1em;
+}
+
+.arizona-image {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+}
+
+.arizona {
+    grid-column: 1/2;
+    border-top: 1px black solid;
+    font-size: 1.1em;
+}
+
+.river-footer {
+    background-color: darkslateblue;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
