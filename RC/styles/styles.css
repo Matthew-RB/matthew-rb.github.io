@@ -222,18 +222,18 @@ footer .social image {
 }
 .msg {
   line-height: 1.5em;
-  background-color: darkgrey;
+  background-color: #D90429;
   padding: 35px;
   grid-column: 6/10;
   grid-row: 6/7;
   box-shadow: 5px 5px 10px #6f7364;
 }
 .msg h2 {
-  color: black;
+  color: white;
 }
 .msg p {
   font-size: 0.8em;
-  color: black;
+  color: white;
   padding-bottom: 15px;
 }
 
