@@ -56,7 +56,6 @@ body {
 
 /* This is for the header */
 header {
-  /* Change Background color */
   background-color: #2B2D42;
   display: grid;
   grid-template-columns: 150px auto;
@@ -113,6 +112,7 @@ footer .social image {
   padding-top: 15px;
 }
 
+/* MAIN PAGE */
 /* This is for the first big picture on the main page */
 #coaster {
   display: grid;
@@ -172,3 +172,80 @@ footer .social image {
   color: #D90429;
   margin-top: 10px;
 } 
+
+/* PAGE 2, Recommended Page */
+
+.recommended-title {
+  font-family: 'Lobster', cursive, Brush Script MT;
+  font-size: 2em;
+  color: #EDF2F4;
+  margin-top: 10px;
+}
+
+#beginner {
+  background-color: #8D99AE;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+  height: 300px;
+}
+
+.recommend-right {
+  grid-column: 1/2;
+  height: 280px;
+  align-self: center;
+  justify-self: center;
+}
+
+.recommend-left {
+  text-align: left;
+}
+
+/* This is for the main page in Recommended */
+.intermediate-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+#background {
+  background-color: #EDF2F4;
+  height: 1100px;
+  grid-column: 1/11;
+  grid-row: 4/9;
+  margin-bottom: 15px;
+}
+.intermediate {
+  width: 100%;
+  grid-column: 2/7;
+  grid-row: 5/8;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.msg {
+  line-height: 1.5em;
+  background-color: darkgrey;
+  padding: 35px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.msg h2 {
+  color: black;
+}
+.msg p {
+  font-size: 0.8em;
+  color: black;
+  padding-bottom: 15px;
+}
+
+#advanced {
+  background-color: #2B2D42;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: -20px;
+  height: 300px;
+}
+
+.recommend-left-A{
+  text-align: left;
+  color: white;
+}
