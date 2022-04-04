@@ -169,9 +169,12 @@ footer .social image {
 .home-title {
   font-family: 'Lobster', cursive, Brush Script MT;
   font-size: 2em;
-  color: #D90429;
+  color: white;
   margin-top: 10px;
   background-color: #00000044;
+  text-shadow: 3px 3px 7px #d90429;
+  text-transform: uppercase;
+  padding: 15px 35px;
 } 
 
 /* PAGE 2, Recommended Page */
@@ -255,11 +258,12 @@ footer .social image {
 /* FLIP BOX in main. */
 
 #safety-main {
-  font-family: 'Lobster', cursive, Brush Script MT;
+  font-family: Lobster, cursive, "Brush Script MT";
   text-align: center;
-  color: #D90429;
-  background-color: #8D99AE;
-  height: 50px;
+  color: rgb(217, 4, 41);
+  background-color: rgb(141, 153, 174);
+  padding: 20px;
+  font-size: 45px;
 }
 
 #guide {
@@ -354,5 +358,11 @@ footer .social image {
   text-align: center;
   margin: auto;
   font-size: 1.5em;
+  padding-left: 15px;
 }
 
+.hover-text {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 25px;
+}
